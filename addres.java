@@ -92,6 +92,8 @@ public class addres implements ActionListener {
                         int sum = a + b;
                         String res = Integer.toString(sum);
                         l3.setText("Result :: " + res);
+                        // t1.setEnabled(false);
+                        // t2.setEnabled(false);
                     }
                 } catch (Exception ex) {
                     l3.setText("Result : Invalid Input");
